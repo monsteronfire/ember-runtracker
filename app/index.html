@@ -17,6 +17,19 @@
   <body>
     {{content-for 'body'}}
 
+
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAOhAj5FO9U4JFLlLVgl-JMGT8T-Ibc-cY",
+        authDomain: "runtracker-f7814.firebaseapp.com",
+        databaseURL: "https://runtracker-f7814.firebaseio.com",
+        storageBucket: "",
+      };
+      firebase.initializeApp(config);
+    </script>
+
     <script src="assets/vendor.js"></script>
     <script src="assets/runtracker.js"></script>
 

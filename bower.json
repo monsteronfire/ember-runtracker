@@ -13,5 +13,6 @@
     "loader.js": "ember-cli/loader.js#3.4.0",
     "qunit": "~1.20.0",
     "susy": "^2.2.12"
-  }
+  },
+  "devDependencies": {}
 }
