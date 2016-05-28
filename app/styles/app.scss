@@ -1,1 +1,7 @@
-@include "bower_components/susy/sass/susy";
+@import "susy";
+
+body {
+  background-color: #F20000;
+  color: blue;
+  font-size: 12px;
+}
